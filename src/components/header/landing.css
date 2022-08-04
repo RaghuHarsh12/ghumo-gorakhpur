@@ -1,0 +1,76 @@
+.landing{
+    height: 100vh;
+    background-image: url(../../images/naukadesktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.landing-content{
+    padding-top: 100px;
+    justify-content: center;
+    border-radius: 1%;
+    align-items: center;
+    height: 70vh;
+    width: 80vw;
+    background: rgba(0,0 ,0 , 0.8);
+}
+
+
+
+
+
+.landing-heading{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.namaste{
+    display: flex;
+    justify-content: center;
+}
+
+
+.landing-text{
+    display: flex;
+    justify-content: center;
+    margin-top: -70px;
+    align-items: center;
+    color: wheat;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+@media all and (max-width:800px) {
+    .landing{
+    background-image: url(../../images/naukamobile.jpg);
+    background-position: center;
+    }
+}
+
+@media all and (max-width:700px) {
+
+    .landing{
+    background-image: url(../../images/naukamobile.jpg);
+    background-position: center;
+    overflow-x: hidden;
+    }
+
+    .landing-text{
+        margin-top: 0px;
+        padding: 0px 20px;
+    }
+
+    .namaste{
+        width: 100px;
+        height: 50px;
+    }
+}

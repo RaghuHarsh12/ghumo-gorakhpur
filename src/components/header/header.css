@@ -1,0 +1,31 @@
+.navbar{
+    height: 50px;
+    width: 100vw;
+    /* background-color: cadetblue;
+     */
+     background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden;
+    position: fixed;
+}
+
+
+.logo-container{
+    height: 50px;
+    width: 50px;
+    /* display: flex; */
+}
+
+.logo{
+    height: 45px;
+    width: 45px;
+    margin: 2px 25px ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.list-box{
+    display: flex;
+}
